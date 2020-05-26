@@ -20,6 +20,53 @@
     background-position: center;
 }
 
-.quizText {
+.headText {
+    color: red;
+}
+
+.quizContainer {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    background: rgba(173, 216, 230, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flagImage {
+    width: 180px;
+    height: 130px;
+}
+
+.startButton {
+    width: 150px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+.imageAnswerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.proptStyle {
+    margin: 15px 0 15px 0;
+    font-size: 26px;
+}
+
+.answerElement {
+    cursor: pointer;
+    width: auto;
+}
+
+.answerElement:hover {
     color: red;
 }
