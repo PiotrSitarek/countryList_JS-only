@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url(/world.PNG);
+    background-image: url(https://piotrsitarek.pl/country_list-quiz/world.PNG);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -46,7 +46,15 @@
     margin: 10px 0 10px 0;
     background-color: lightskyblue;
     border-radius: 20px;
+    cursor: pointer;
 }
+
+.startButton:hover {
+    background-color: rgb(82, 180, 241);
+    cursor: pointer;
+}
+
+
 
 .imageAnswerContainer {
     display: flex;

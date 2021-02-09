@@ -7,6 +7,7 @@ fetch(`https://restcountries.eu/rest/v2/all`)
     .then(response => createCountryList(response))
     .catch(error => console.log(error));
 
+
 let countryArray = [];
 
 const createCountryList = (response) => {
@@ -15,6 +16,7 @@ const createCountryList = (response) => {
     });
 };
 
+// console.log(countryArray);
 const mainContainer = document.querySelector(".mainContainer");
 
 const countryList = document.createElement("ul");
